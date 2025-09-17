@@ -32,3 +32,419 @@
  ✓ Compiled in 845ms (523 modules)
  ✓ Compiled in 3.9s (523 modules)
  ✓ Compiled in 565ms (260 modules)
+ ✓ Compiled in 1057ms (260 modules)
+ ○ Compiling /not-found ...
+ ✓ Compiled /not-found in 3.9s (528 modules)
+ ⨯ Error: Cannot find module './470.js'
+Require stack:
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/app/not-found.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/build/utils.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-server.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/start-server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at mod.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:176:18)
+    at __webpack_require__.f.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:198:28)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:162:22)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/app/quiz/question-1/page.js:1:9892
+    at Object.<anonymous> (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/app/quiz/question-1/page.js:1:9937)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at mod.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:176:18)
+    at requirePage (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js:109:84)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js:59:26)
+    at async DevServer.findPageComponentsImpl (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/next-server.js:671:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/app/not-found.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/build/utils.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/quiz/question-1'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 8.1s (673 modules)
+ ⨯ Error: Cannot find module './470.js'
+Require stack:
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/pages/_document.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/build/utils.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-server.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/start-server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at mod.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:176:18)
+    at __webpack_require__.f.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:198:28)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:162:22)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/app/quiz/question-1/page.js:1:9892
+    at Object.<anonymous> (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/app/quiz/question-1/page.js:1:9937)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at mod.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:176:18)
+    at requirePage (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js:109:84)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js:59:26)
+    at async DevServer.findPageComponentsImpl (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/next-server.js:671:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/pages/_document.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/build/utils.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/quiz/question-1'
+}
+ ⨯ Error: Cannot find module './470.js'
+Require stack:
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/pages/_document.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/build/utils.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-server.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/start-server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at mod.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:176:18)
+    at __webpack_require__.f.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:198:28)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:162:22)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/app/quiz/question-1/page.js:1:9892
+    at Object.<anonymous> (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/app/quiz/question-1/page.js:1:9937)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at mod.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:176:18)
+    at requirePage (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js:109:84)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js:59:26)
+    at async DevServer.findPageComponentsImpl (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/next-server.js:671:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/pages/_document.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/build/utils.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/quiz/question-1'
+}
+ ⨯ Error: Cannot find module './470.js'
+Require stack:
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/pages/_document.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/build/utils.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-server.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/start-server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at mod.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:176:18)
+    at __webpack_require__.f.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:198:28)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:162:22)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/app/quiz/question-1/page.js:1:9892
+    at Object.<anonymous> (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/app/quiz/question-1/page.js:1:9937)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at mod.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:176:18)
+    at requirePage (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js:109:84)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js:59:26)
+    at async DevServer.findPageComponentsImpl (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/next-server.js:671:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/pages/_document.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/build/utils.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/quiz/question-1'
+}
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 14.0.4
+   - Local:        http://localhost:3000
+
+ ✓ Ready in 61.5s
+ ○ Compiling /quiz/question-1 ...
+ ✓ Compiled /quiz/question-1 in 49.7s (508 modules)
+TypeError: Cannot read properties of undefined (reading 'call')
+    at t (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:1:128)
+    at F (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:91937)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94352
+    at W._fromJSON (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94790)
+    at JSON.parse (<anonymous>)
+    at N (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:91658)
+    at $ (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:90455)
+    at n$ (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:62192)
+    at nE (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:44877)
+    at nP (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:45472)
+    at n$ (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61978)
+    at nB (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:69130)
+    at Timeout._onTimeout (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:42648)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at t (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:1:128)
+    at JSON.parse (<anonymous>)
+ ⨯ TypeError: Cannot read properties of undefined (reading 'call')
+    at t (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:1:128)
+    at F (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:91937)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94352
+    at W._fromJSON (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:94790)
+    at JSON.parse (<anonymous>)
+    at N (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:91658)
+    at $ (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:90455)
+    at n$ (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:62192)
+    at nE (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:44877)
+    at nP (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:45472)
+    at n$ (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61978)
+    at nB (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:69130)
+    at Timeout._onTimeout (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:42648)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7) {
+  page: '/quiz/question-1'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 5.4s (653 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⨯ Error: Cannot find module './470.js'
+Require stack:
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/pages/_document.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/build/utils.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-server.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/start-server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at mod.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:176:18)
+    at __webpack_require__.f.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:198:28)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:162:22)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/app/quiz/question-1/page.js:1:9892
+    at Object.<anonymous> (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/app/quiz/question-1/page.js:1:9937)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at mod.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:176:18)
+    at requirePage (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js:109:84)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js:59:26)
+    at async DevServer.findPageComponentsImpl (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/next-server.js:671:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/pages/_document.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/build/utils.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/quiz/question-1'
+}
+ ⨯ Error: Cannot find module './470.js'
+Require stack:
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/pages/_document.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/build/utils.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-server.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/start-server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at mod.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:176:18)
+    at __webpack_require__.f.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:198:28)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:162:22)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/app/quiz/question-1/page.js:1:9892
+    at Object.<anonymous> (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/app/quiz/question-1/page.js:1:9937)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at mod.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:176:18)
+    at requirePage (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js:109:84)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js:59:26)
+    at async DevServer.findPageComponentsImpl (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/next-server.js:671:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/pages/_document.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/build/utils.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/quiz/question-1'
+}
+ ⨯ Error: Cannot find module './470.js'
+Require stack:
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/pages/_document.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/build/utils.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-server.js
+- /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/start-server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1144:15)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:55:36
+    at Module._load (node:internal/modules/cjs/loader:985:27)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at mod.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:176:18)
+    at __webpack_require__.f.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:198:28)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js:162:22)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/app/quiz/question-1/page.js:1:9892
+    at Object.<anonymous> (/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/app/quiz/question-1/page.js:1:9937)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Module.require (node:internal/modules/cjs/loader:1235:19)
+    at mod.require (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:176:18)
+    at requirePage (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js:109:84)
+    at /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js:59:84
+    at async loadComponentsImpl (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js:59:26)
+    at async DevServer.findPageComponentsImpl (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/next-server.js:671:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/webpack-runtime.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/.next/server/pages/_document.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/require.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/load-components.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/build/utils.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/router-server.js',
+    '/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/quiz/question-1'
+}
