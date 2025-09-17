@@ -618,12 +618,12 @@ export default function Results() {
                 </div>
               </div>
 
-              <div className="flex space-x-4">
-                <button className="text-white px-8 py-3 font-proxima-nova hover:bg-opacity-90 transition-all duration-200" style={{ backgroundColor: '#121C21', borderRadius: '8px', fontSize: '18px', fontWeight: 'bold', letterSpacing: '0.06em' }}>
+              <div className="flex flex-col space-y-4">
+                <a href="#contact-form" className="w-full text-white px-8 py-3 font-proxima-nova hover:bg-opacity-90 transition-all duration-200 inline-block text-center" style={{ backgroundColor: '#121C21', borderRadius: '8px', fontSize: '18px', fontWeight: 'bold', letterSpacing: '0.06em' }}>
                   REQUEST A CALL
-                </button>
-                <button className="bg-white text-gray-700 px-8 py-3 font-proxima-nova hover:bg-gray-50 transition-all duration-200 border" style={{ borderRadius: '8px', borderWidth: '1px', borderColor: '#D1D5DB', fontSize: '18px', fontWeight: 'bold', letterSpacing: '0.06em' }}>
-                  SHARE
+                </a>
+                <button className="w-full bg-white text-gray-700 px-8 py-3 font-proxima-nova hover:bg-gray-50 transition-all duration-200 border" style={{ borderRadius: '8px', borderWidth: '1px', borderColor: '#D1D5DB', fontSize: '18px', fontWeight: 'bold', letterSpacing: '0.06em' }}>
+                  LEARN MORE ABOUT {bestMatch?.name?.toUpperCase() || 'THIS COMMUNITY'}
                 </button>
               </div>
             </div>
@@ -704,7 +704,7 @@ export default function Results() {
       </div>
 
       {/* Let's Connect Section */}
-      <section className="py-16 bg-white">
+      <section id="contact-form" className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-proxima-nova font-bold text-black mb-4">
@@ -918,7 +918,7 @@ export default function Results() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               {/* Left Column - About/Resources */}
-              <div className="space-y-4">
+              <div className="space-y-4 text-center md:text-left">
                 <a href="#" className="block font-proxima-nova text-[#D4C799] hover:text-white transition-colors">
                   ABOUT
                 </a>
@@ -934,18 +934,18 @@ export default function Results() {
               </div>
 
               {/* Middle Column - Get Support */}
-              <div className="flex items-start">
+              <div className="flex items-start justify-center">
                 <a href="#" className="font-proxima-nova text-[#D4C799] hover:text-white transition-colors">
                   GET SUPPORT
                 </a>
               </div>
 
               {/* Right Column - Follow Us */}
-              <div>
+              <div className="text-center md:text-right">
                 <h4 className="font-proxima-nova text-[#D4C799] mb-6">
                   FOLLOW US
                 </h4>
-                <div className="flex space-x-4">
+                <div className="flex space-x-4 justify-center md:justify-end">
                   {/* Twitter/X Icon */}
                   <a href="#" className="w-8 h-8 bg-black rounded-full flex items-center justify-center hover:bg-gray-800 transition-colors">
                     <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">

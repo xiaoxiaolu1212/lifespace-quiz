@@ -448,3 +448,93 @@ Require stack:
   ],
   page: '/quiz/question-1'
 }
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 14.0.4
+   - Local:        http://localhost:3000
+
+ ✓ Ready in 31.2s
+ ○ Compiling /not-found ...
+ ✓ Compiled /not-found in 20.9s (508 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ✓ Compiled in 2.5s (503 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 2.4s (506 modules)
+ ✓ Compiled /find-community in 156ms (509 modules)
+ ✓ Compiled in 468ms (520 modules)
+ ✓ Compiled in 183ms (520 modules)
+ ✓ Compiled /quiz/question-2 in 287ms (526 modules)
+ ✓ Compiled /quiz/question-3 in 152ms (518 modules)
+ ✓ Compiled /quiz/question-4 in 148ms (524 modules)
+ ✓ Compiled /quiz/question-5 in 169ms (530 modules)
+ ✓ Compiled /quiz/question-6 in 136ms (536 modules)
+ ✓ Compiled /quiz/question-7 in 184ms (542 modules)
+ ○ Compiling /quiz/question-8 ...
+ ✓ Compiled /quiz/question-8 in 579ms (548 modules)
+ ○ Compiling /results ...
+ ✓ Compiled /results in 9.7s (965 modules)
+ ✓ Compiled in 1255ms (959 modules)
+ ✓ Compiled in 684ms (959 modules)
+ ✓ Compiled in 499ms (959 modules)
+ ✓ Compiled in 373ms (959 modules)
+ ✓ Compiled in 1238ms (959 modules)
+ ✓ Compiled in 235ms (959 modules)
+ ✓ Compiled in 5.2s (959 modules)
+ ✓ Compiled in 320ms (959 modules)
+ ✓ Compiled in 677ms (959 modules)
+ ✓ Compiled in 209ms (959 modules)
+ ✓ Compiled in 1803ms (959 modules)
+ ✓ Compiled in 1629ms (959 modules)
+ ✓ Compiled in 1039ms (959 modules)
+ ○ Compiling /quiz/question-6 ...
+ ✓ Compiled /quiz/question-6 in 2.4s (963 modules)
+ ✓ Compiled /quiz/question-5 in 74ms (486 modules)
+ ✓ Compiled in 1318ms (963 modules)
+ ✓ Compiled in 1932ms (963 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 552ms (482 modules)
+ ✓ Compiled /find-community in 183ms (485 modules)
+ ✓ Compiled /quiz/question-1 in 317ms (489 modules)
+ ✓ Compiled /quiz/question-2 in 118ms (279 modules)
+ ✓ Compiled /quiz/question-3 in 151ms (283 modules)
+ ✓ Compiled /quiz/question-4 in 94ms (287 modules)
+ ✓ Compiled in 609ms (768 modules)
+ ✓ Compiled in 296ms (764 modules)
+ ✓ Compiled /quiz/question-6 in 248ms (287 modules)
+ ✓ Compiled in 1522ms (745 modules)
+ ✓ Compiled in 272ms (745 modules)
+ ✓ Compiled in 1306ms (745 modules)
+ ✓ Compiled in 956ms (745 modules)
+ ✓ Compiled in 717ms (741 modules)
+ ✓ Compiled in 403ms (741 modules)
+ ✓ Compiled /quiz/question-8 in 75ms (264 modules)
+ ○ Compiling /results ...
+ ✓ Compiled /results in 1026ms (474 modules)
+ ✓ Compiled in 3.7s (947 modules)
+ ⨯ upstream image response failed for /images/results-abbeydelraysouth.jpg ResponseAborted
+    at Object.fetch (node:internal/deps/undici/undici:11730:11)
+    at async globalThis.fetch (webpack-internal:///(rsc)/./node_modules/next/dist/server/lib/patch-fetch.js:193:16)
+    at async invokeRequest (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/lib/server-ipc/invoke-request.js:17:12)
+    at async /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/next-server.js:596:35
+    at async imageOptimizer (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/image-optimizer.js:576:13)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/next-server.js:176:65)
+    at async /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/lib/batcher.js:41:32
+ImageError: "url" parameter is valid but upstream response is invalid
+    at imageOptimizer (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/image-optimizer.js:588:19)
+    at async cacheEntry.imageResponseCache.get.incrementalCache (/Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/next-server.js:176:65)
+    at async /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/server/response-cache/index.js:90:36
+    at async /Users/lu/Cursor Ai Projects/lifespace-quiz/node_modules/next/dist/lib/batcher.js:41:32 {
+  statusCode: 500
+}
+ ✓ Compiled in 2.3s (947 modules)
+ ✓ Compiled in 497ms (947 modules)
+ ✓ Compiled in 3.1s (947 modules)
+ ✓ Compiled in 3.3s (947 modules)
+ ✓ Compiled in 557ms (947 modules)
+ ✓ Compiled in 313ms (947 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 584ms (482 modules)
+ ○ Compiling /find-community ...
+ ✓ Compiled /find-community in 1587ms (485 modules)
+ ✓ Compiled in 397ms (962 modules)
+ ✓ Compiled in 458ms (962 modules)
