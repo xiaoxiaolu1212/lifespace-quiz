@@ -511,10 +511,10 @@ export default function Results() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
               <div>
                 <h2 className="font-proxima-nova font-medium text-black mb-4" style={{ fontSize: '41px' }}>
-                  We've found your perfect community match!
+                  We&apos;ve found your perfect community match!
                 </h2>
                 <p className="text-lg font-proxima-nova text-gray-600">
-                  Based on your answers, here's a community that fits your lifestyle and needs.
+                  Based on your answers, here&apos;s a community that fits your lifestyle and needs.
                 </p>
               </div>
               <div>
@@ -639,7 +639,7 @@ export default function Results() {
               LIFESTYLE
             </h2>
             <p className="text-lg font-proxima-nova text-gray-600">
-              Activities & Amenities You'll Enjoy
+              Activities & Amenities You&apos;ll Enjoy
             </p>
           </div>
 
@@ -708,7 +708,7 @@ export default function Results() {
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-proxima-nova font-bold text-black mb-4">
-              LET'S CONNECT YOU WITH {bestMatch?.name?.toUpperCase() || 'YOUR MATCHED COMMUNITY'}
+              LET&apos;S CONNECT YOU WITH {bestMatch?.name?.toUpperCase() || 'YOUR MATCHED COMMUNITY'}
             </h2>
             <p className="text-lg font-proxima-nova text-gray-600">
               Our community specialists are ready to help you learn more and schedule a personalized tour.
@@ -862,7 +862,7 @@ export default function Results() {
               YOUR PREFERENCES AT A GLANCE
             </h2>
             <p className="text-lg font-proxima-nova text-gray-600">
-              Here's a summary of your preferences that helped us find your perfect match.
+              Here&apos;s a summary of your preferences that helped us find your perfect match.
             </p>
           </div>
         </div>
