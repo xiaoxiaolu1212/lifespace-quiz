@@ -1,0 +1,33 @@
+
+> lifespace-quiz@0.1.0 dev
+> next dev
+
+   ▲ Next.js 14.0.4
+   - Local:        http://localhost:3000
+
+ ✓ Ready in 28.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 58.3s (506 modules)
+ ✓ Compiled in 2.4s (254 modules)
+ ○ Compiling /find-community ...
+ ✓ Compiled /find-community in 580ms (495 modules)
+ ○ Compiling /quiz/question-1 ...
+ ✓ Compiled /quiz/question-1 in 856ms (509 modules)
+ ✓ Compiled in 435ms (523 modules)
+ ✓ Compiled in 477ms (523 modules)
+ ✓ Compiled in 256ms (523 modules)
+ ✓ Compiled in 450ms (523 modules)
+ ✓ Compiled in 156ms (523 modules)
+ ✓ Compiled in 182ms (523 modules)
+ ✓ Compiled in 161ms (523 modules)
+ ✓ Compiled in 223ms (523 modules)
+ ✓ Compiled in 231ms (523 modules)
+ ✓ Compiled in 242ms (523 modules)
+ ✓ Compiled in 157ms (523 modules)
+ ✓ Compiled in 227ms (523 modules)
+ ✓ Compiled in 171ms (523 modules)
+ ✓ Compiled in 198ms (523 modules)
+ ✓ Compiled in 234ms (523 modules)
+ ✓ Compiled in 17.6s (523 modules)
+ ✓ Compiled in 845ms (523 modules)
+ ✓ Compiled in 3.9s (523 modules)
