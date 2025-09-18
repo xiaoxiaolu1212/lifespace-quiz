@@ -25,6 +25,21 @@ export default function Results() {
   const bestMatch = matches[0]
   const altOptions = matches.slice(1, 3)
 
+  // Community website URLs mapping
+  const communityWebsites: { [key: string]: string } = {
+    'The Waterford': 'https://www.thewaterford.com/',
+    'Village on the Green': 'https://www.votgseniorliving.com/',
+    'Abbey Delray South': 'https://www.abbeydelraysouth.com/',
+    'Oak Trace': 'https://www.oaktraceseniorliving.com/',
+    'Beacon Hill': 'https://www.beaconhilllombard.com/',
+    "Harbour's Edge": 'https://www.harboursedge.com/'
+  }
+
+  // Get the website URL for the best match
+  const getCommunityWebsite = (communityName: string) => {
+    return communityWebsites[communityName] || '#'
+  }
+
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({
       ...formData,
@@ -622,9 +637,15 @@ export default function Results() {
                 <a href="#contact-form" className="w-full text-white px-8 py-3 font-proxima-nova hover:bg-opacity-90 transition-all duration-200 inline-block text-center" style={{ backgroundColor: '#121C21', borderRadius: '8px', fontSize: '18px', fontWeight: 'bold', letterSpacing: '0.06em' }}>
                   REQUEST A CALL
                 </a>
-                <button className="w-full bg-white text-gray-700 px-8 py-3 font-proxima-nova hover:bg-gray-50 transition-all duration-200 border" style={{ borderRadius: '8px', borderWidth: '1px', borderColor: '#D1D5DB', fontSize: '18px', fontWeight: 'bold', letterSpacing: '0.06em' }}>
+                <a 
+                  href={getCommunityWebsite(bestMatch?.name || '')} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-full bg-white text-gray-700 px-8 py-3 font-proxima-nova hover:bg-gray-50 transition-all duration-200 border inline-block text-center" 
+                  style={{ borderRadius: '8px', borderWidth: '1px', borderColor: '#6B7280', fontSize: '18px', fontWeight: 'bold', letterSpacing: '0.06em' }}
+                >
                   LEARN MORE ABOUT {bestMatch?.name?.toUpperCase() || 'THIS COMMUNITY'}
-                </button>
+                </a>
               </div>
             </div>
           </div>

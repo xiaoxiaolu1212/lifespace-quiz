@@ -538,3 +538,30 @@ ImageError: "url" parameter is valid but upstream response is invalid
  ✓ Compiled /find-community in 1587ms (485 modules)
  ✓ Compiled in 397ms (962 modules)
  ✓ Compiled in 458ms (962 modules)
+ ○ Compiling /quiz/question-1 ...
+ ✓ Compiled /quiz/question-1 in 2.1s (482 modules)
+ ○ Compiling /quiz/question-2 ...
+ ✓ Compiled /quiz/question-2 in 3.8s (482 modules)
+ ✓ Compiled /quiz/question-3 in 91ms (486 modules)
+ ✓ Compiled /quiz/question-4 in 131ms (482 modules)
+ ○ Compiling /quiz/question-5 ...
+ ✓ Compiled /quiz/question-5 in 1779ms (486 modules)
+ ✓ Compiled /quiz/question-6 in 397ms (490 modules)
+ ○ Compiling /quiz/question-7 ...
+ ✓ Compiled /quiz/question-7 in 805ms (494 modules)
+ ✓ Compiled /quiz/question-8 in 343ms (498 modules)
+ ✓ Compiled in 945ms (481 modules)
+ ✓ Compiled in 7.4s (947 modules)
+ ✓ Compiled in 3s (947 modules)
+ ✓ Compiled in 1549ms (947 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 3.7s (482 modules)
+ ○ Compiling /find-community ...
+ ✓ Compiled /find-community in 1317ms (485 modules)
+ ○ Compiling /quiz/question-1 ...
+ ✓ Compiled /quiz/question-1 in 3.4s (489 modules)
+ ○ Compiling /quiz/question-2 ...
+ ✓ Compiled /quiz/question-2 in 1752ms (493 modules)
+ ○ Compiling /not-found ...
+ ✓ Compiled /not-found in 2s (968 modules)
+[?25h
